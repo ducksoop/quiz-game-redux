@@ -16,4 +16,3 @@ add_subdirectory ("src")
 
 # Add the json library
 add_subdirectory(extern/json)
-
