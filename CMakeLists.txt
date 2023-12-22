@@ -13,3 +13,7 @@ project ("quiz-game-redux")
 
 # Include sub-projects.
 add_subdirectory ("src")
+
+# Add the json library
+add_subdirectory(extern/json)
+

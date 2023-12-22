@@ -9,4 +9,7 @@ if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET quiz-game-redux PROPERTY CXX_STANDARD 20)
 endif()
 
+# Link nlohmann_json::nlohmann_json
+target_link_libraries(quiz-game-redux PRIVATE nlohmann_json::nlohmann_json)
+
 # TODO: Add tests and install targets if needed.
