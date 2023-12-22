@@ -11,6 +11,9 @@ endif()
 
 project ("quiz-game-redux")
 
+# Include my headers
+include_directories(${PROJECT_SOURCE_DIR}/include)
+
 # Include sub-projects.
 add_subdirectory ("src")
 

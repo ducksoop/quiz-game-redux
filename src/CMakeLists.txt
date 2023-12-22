@@ -3,7 +3,7 @@
 #
 
 # Add source to this project's executable.
-add_executable (quiz-game-redux "main.cpp" )
+add_executable (quiz-game-redux "main.cpp"  "QuestionLoader.cpp" "QuizGame.cpp")
 
 # Post-build command to copy questions.json to the build directory
 add_custom_command(TARGET quiz-game-redux POST_BUILD
