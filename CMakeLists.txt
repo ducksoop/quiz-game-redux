@@ -33,8 +33,8 @@ include_directories(extern/googletest/googletest/include)
 
 # Create the test executable
 add_executable(quiz-game-redux-tests
-    
- "tests/QuestionLoaderTests.cpp" "tests/QuestionShuffleTests.cpp"  "tests/QuestionStructTests.cpp")
+    tests/QuestionTests.cpp
+    )
 
 # Link Google Test to the test executable
 target_link_libraries(quiz-game-redux-tests gtest gtest_main)
