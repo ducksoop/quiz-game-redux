@@ -19,7 +19,6 @@ Quiz Game Redux is a modern rewrite of a classic quiz game project, originally d
    git clone https://github.com/ducksoop/quiz-game-redux.git --recurse-submodules
    cd quiz-game-redux
    ```
-   Note: The `--recurse-submodules` option is necessary to clone the `nlohmann/json` library included as a submodule.
 
 2. **Build the Project**
    ```bash
