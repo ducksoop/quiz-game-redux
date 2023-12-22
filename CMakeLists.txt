@@ -26,6 +26,7 @@ if(MSVC)
 endif()
 
 # Add Google Test as a subdirectory
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE) # Use shared (DLL) run-time lib even when Google Test is built as static lib
 add_subdirectory(extern/googletest)
 
 # Include the Google Test headers
